@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+html body{
+    background-color: #fff;
+    color: #21596e;
+}
+
+hr {
+    color: #b1dd62
+}
+
+.banner {
+    background-color: #fff;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 6rem;
+}
