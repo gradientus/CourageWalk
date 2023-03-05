@@ -2,22 +2,52 @@
 
 html body{
     background-color: #fff;
-    color: #21596e;
+    color: #21596E;
+    font-family: 'Merriweather', Georgia, Times, serif;
 }
 
 hr {
-    color: #b1dd62
+    color: #b1dd62;
+    height: 4px;
 }
 
-.banner {
-    background-color: #fff;
+h1, h2, h3, h4, .banner {
     text-align: center;
 }
 
-h1, h2, h3 {
-    text-align: center;
+
+
+h1{
+    margin-top: 3em;
 }
 
-h1 {
-    margin-top: 6rem;
+.blue {
+    background-color: #21596e;
+}
+
+a:visited, a:focus{
+    color: #21596e;
+}
+
+a:hover {
+    color: #9283be
+}
+
+.empty {
+    height: 3rem;
+}
+
+.left {
+    text-align: left
+}
+
+.btn-primary {
+    background-color: #b1dd62;
+    color: #21596e;
+    outline: none;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #9283be;
 }
