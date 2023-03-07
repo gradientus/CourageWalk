@@ -8,14 +8,12 @@ html body{
 
 hr {
     color: #b1dd62;
-    height: 4px;
+    border: #b1dd62 solid 3px;
 }
 
 h1, h2, h3, h4, .banner {
     text-align: center;
 }
-
-
 
 h1{
     margin-top: 3em;
@@ -25,12 +23,12 @@ h1{
     background-color: #21596e;
 }
 
-a:visited, a:focus{
-    color: #21596e;
+a:visited, a:focus, .link-primary{
+    color: #21596e !important;
 }
 
-a:hover {
-    color: #9283be
+a:hover, .link-primary:hover{
+    color: #9283be;
 }
 
 .empty {
@@ -50,4 +48,12 @@ a:hover {
 
 .btn-primary:hover {
     background-color: #9283be;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+#footer-emergency {
+    font-weight: bold;
+    font-size: .85rem;
 }
